@@ -16,9 +16,7 @@
             padding: 8px;
             font-size: 16px;
         }
-        h3{
-            color: green
-        }
+
         
     </style>
 </head>
