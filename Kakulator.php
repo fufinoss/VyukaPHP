@@ -32,16 +32,16 @@ if (isset($_POST['submit'])) {
     $operator = $_POST['operator'];
  
     switch ($operator) {
-        case 'add':
+        case 'sčítání':
             $result = $num1 + $num2;
             break;
-        case 'subtract':
+        case 'odčítání':
             $result = $num1 - $num2;
             break;
-        case 'multiply':
+        case 'násobení':
             $result = $num1 * $num2;
             break;
-        case 'divide':
+        case 'dělení':
             if ($num2 != 0) {
                 $result = $num1 / $num2;
             } else {
@@ -49,7 +49,7 @@ if (isset($_POST['submit'])) {
             }
             break;
         default:
-            $result = 'Špatný inpuut';
+            $result = 'Špatný inpuuuut';
             break;
     }
 }
